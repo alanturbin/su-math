@@ -1,2 +1,5 @@
-def perimeter_func(a, b, c):
-    return a + b + c
+def perimeter_func(arr):
+    sum = 0
+    for stor in arr:
+        sum += stor
+    return sum
